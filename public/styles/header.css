@@ -1,0 +1,39 @@
+/* * Minimal Reset */
+body {
+	margin: 0;
+	font-family: Open Sans, sans-serif;
+	background: turquoise;
+}
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+.header {
+	background: var(--palette-light-grey);
+	color: var(--palette-denim-100);
+
+	font-family: Open Sans, sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* background_shape_1 */
+	height: 10vh;
+
+	/* border-bottom-left-radius: 50% 20%;
+	border-bottom-right-radius: 50% 20%; */
+}
+.header-title {
+	margin: 0;
+}
+
+/* Do NOT copy to index.html */
+.spacer {
+	height: 80vh;
+	background-color: blue;
+}
